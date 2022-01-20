@@ -1,0 +1,39 @@
+@media (min-width: 992px) {  
+    .main{  
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "main, main"
+        "header "
+        "Section1"
+        "Section2";
+    }
+header{
+        text-align: center;
+        background-color: rgb(65, 192, 235);
+
+    }
+       h1{
+           color: white;
+       }
+    Section1{ 
+        display: grid;
+    }
+    
+    .Title1{
+            border-top: rgb(65, 192, 235) 10px;
+        }
+
+    .Title2{
+        border-top:tomato 10px;
+    }
+
+    .Title3{
+        border-top: turquoise;
+    }
+    p{
+        text-align: center;
+    }
+}
+@media (min-width: 576px) {
+
+}
